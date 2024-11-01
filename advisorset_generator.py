@@ -47,9 +47,10 @@ fastq_files = args.fastqs
 #print(fastq_files)
 #pdb.set_trace()
 
+'''
 print("Generating set representation of the new sample via MinHash sketch...")
 
-'''
+
 cmd = "cat "
 for fastq_file in fastq_files:
     cmd += fastq_file + " "
