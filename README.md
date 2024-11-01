@@ -14,6 +14,12 @@ Here we provide an example of generating a parameter advisor set for a new RNA-s
 
 Download fastq files of the sample (e.g. SRA accession number:SRR1023790) from https://sra-explorer.info. 
 
+```bash
+> srapath SRR1023790
+https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR1023790/SRR1023790
+
+
+
 ## Generate advisor set
 
 1. Download Mash from https://mash.readthedocs.io/en/latest/.
