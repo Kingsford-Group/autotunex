@@ -25,7 +25,7 @@ https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR1023790/SRR1023790
 1. Download Mash from https://mash.readthedocs.io/en/latest/.
 2. Run the command:
 ```bash
-> cat SRR1023790_1.fastq.gz SRR1023790_2.fastq.gz | ./mash-Linux64-v2.3/mash sketch -r -m 2 -o SRR1023790 -
+cat SRR1023790_1.fastq.gz SRR1023790_2.fastq.gz | ./mash-Linux64-v2.3/mash sketch -r -m 2 -o SRR1023790 -
 ```
 It will output SRR1023790.msh: MinHash sketch of the sample SRR1023790.
 
