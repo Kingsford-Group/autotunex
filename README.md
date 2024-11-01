@@ -1,18 +1,23 @@
 # AutoTuneX
 
-This repo contains the trained parameter advisor models for Scallop and StringTie2. For details on these models, please read our manuscript "Adaptive, sample-specific parameter selection for more accurate transcript assembly" (https://www.biorxiv.org/content/10.1101/2024.01.25.577290v1.abstract). 
+This repo contains the trained parameter advisor models for Scallop and StringTie2. For details on these models, please read our manuscript "Data-driven AI system for learning how to run transcript assemblers" (https://doi.org/10.1101/2024.01.25.577290). 
+
+## Installation 
+
+Install the python dependencies: `pip install -r requirements.txt`, we use python 3.10.12.
+
+## Usage
 
 Here we provide an example of generating a parameter advisor set for a new RNA-seq sample via our model. 
 
-## Download fastq files
+### Download fastq files
 
 Download fastq files of the sample (e.g. SRA accession number:SRR1023790) from https://sra-explorer.info. 
 
 ## Generate advisor set
 
 1. Download Mash from https://mash.readthedocs.io/en/latest/.
-2. Install the python dependencies: `pip install -r requirements.txt`, we use python 3.10.12.
-3. download all the files from https://doi.org/10.1184/R1/25037156.v1, here we need to use the following files:
+2. download all the files from https://doi.org/10.1184/R1/25037156.v1, here we need to use the following files:
 
    (1) trained_scallop.pth: the trained parameter advising model for Scallop.
 
