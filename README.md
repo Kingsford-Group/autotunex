@@ -4,7 +4,7 @@ This repo contains the trained parameter advisor models for Scallop and StringTi
 
 ## Installation 
 
-Install the python dependencies: `pip install -r requirements.txt`, we use python 3.10.12.
+Install the python dependencies: `pip install -r requirements.txt`, we tested on python>=3.9.
 
 ## Usage
 
