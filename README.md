@@ -17,6 +17,7 @@ Download fastq files of the sample (e.g. SRA accession number:SRR1023790) from h
 ```bash
 > srapath SRR1023790
 https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR1023790/SRR1023790
+```
 
 
 
