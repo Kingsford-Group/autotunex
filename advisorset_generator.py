@@ -38,12 +38,12 @@ stringtie_bounds = [{"name":"t","type":"int","min":0,"max":1,"default":0,"hard_m
 
 parser = argparse.ArgumentParser('Advisor set generator')
 parser.add_argument('--name', type=str)
-parser.add_argument('--fastqs', nargs='+')
+#parser.add_argument('--fastqs', nargs='+')
 parser.add_argument('--assembler', type=str)
 parser.add_argument('--top',type=int,default=5)
 args = parser.parse_args()
 
-fastq_files = args.fastqs
+#fastq_files = args.fastqs
 #print(fastq_files)
 #pdb.set_trace()
 
