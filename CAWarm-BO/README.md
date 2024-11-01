@@ -9,7 +9,7 @@ The codes here heavily depend on the codes in https://github.com/xingchenwan/Cas
 In addition, we need to install the following packages and softwares: 
 
 1. PyYAML, `pip install PyYAML`
-2. Transcript assemblers such as Scallop (https://github.com/Kingsford-Group/scallop) and StringTie (https://ccb.jhu.edu/software/stringtie/).
+2. Transcript assemblers such as Scallop (https://github.com/Kingsford-Group/scallop) and StringTie2 (https://ccb.jhu.edu/software/stringtie/).
 3. gffcompare: https://github.com/gpertea/gffcompare
 4. gtfcuff: https://github.com/Kingsford-Group/rnaseqtools
 
