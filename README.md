@@ -20,6 +20,7 @@ https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR1023790/SRR1023790
 > wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR1023790/SRR1023790
 > fastq-dump-orig --split-files --gzip --outdir ./ SRR1023790
 ```
+(fastq-dump-orig is not available in sratoolkit.3.1.1-ubuntu64, use fastq-dump instead.)
 
 ### Generate MinHash sketch
 1. Download Mash from https://mash.readthedocs.io/en/latest/.
