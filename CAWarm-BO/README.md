@@ -15,7 +15,7 @@ In addition, we need to install the following packages and softwares:
 
 ## Set YAML config 
 
-First, download a gene annotation file (.gtf), e.g. https://www.gencodegenes.org/human/release_24.html. This file is for computing AUC values. 
+First, download a gene annotation file (.gtf), e.g. https://www.gencodegenes.org/human/release_24.html. This file is for computing AUC values. Please make sure that the chromosome names in the annotation file is consistent with those in the output of the transcript assembler. 
 
 Second, change the information in .yml file if needed. We have provided three YAML files for Scallop, Scallop2 (https://github.com/Shao-Group/scallop2), and StringTie2, but one can also create new .yml for other softwares. 
 

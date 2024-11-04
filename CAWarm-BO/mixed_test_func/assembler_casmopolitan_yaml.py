@@ -56,6 +56,7 @@ def Assembler_base(index,x,Result,input_file,docs):
 
     #NOTE this chr part may be removed
     #check if output gft is started with chr, if remove it
+    '''
     if docs.get('precheck') is not None and docs['precheck'].get('check_command') is not None:
         print('precheck detected')
         cmd = docs['precheck']['check_command'].format(pid)
@@ -66,7 +67,7 @@ def Assembler_base(index,x,Result,input_file,docs):
             cmd = docs['precheck']['excute_command'].format(pid)
             print('excute precheck command: ',cmd)
             os.system(cmd)
-
+    '''
     # looping all required evaluation steps
     for val_step in docs['evaluation']:
         format_dict = {}

@@ -50,9 +50,9 @@ evaluation:
     pid: ''
 
 
-precheck:
-  check_command: grep -c '^chr' {}.gtf
-  excute_command: sed -i 's/^chr//' {}.gtf
+#precheck:
+#check_command: grep -c '^chr' {}.gtf
+#excute_command: sed -i 's/^chr//' {}.gtf
 
 getauc:
   #shell command to grep auc from output file
