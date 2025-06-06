@@ -1,4 +1,6 @@
-We use CAMPAREE and BEERS2 to simulate raw fastq files. Please refer https://github.com/itmat/CAMPAREE/tree/main and https://github.com/itmat/BEERS2/tree/main to see how to install them. 
+We used CAMPAREE and BEERS2 to simulate raw FASTQ files. For installation instructions, please refer to their official repositories: https://github.com/itmat/CAMPAREE/tree/main and https://github.com/itmat/BEERS2/tree/main. 
+
+The files ENCFF000CXQ.camparee.config.yaml and ENCFF000CXQ.beers2.config.yaml are example configuration templates used in our simulations. Please ensure to update the directory paths accordingly before using them. 
 
 Here, we explain how to train our contrastive learning model. 
 
@@ -23,6 +25,4 @@ python autoparadvisor_train.py --assembler stringtie
 
 3. There are two output files:
 
-   (1) scallop_trained_final.pth (or stringtie_trained_final.pth): it contains the trained model.
-
-   (2) scallop_training_loss.npy (or stringtie_training_loss.npy): it contains the training loss values along the epochs. 
+   (1) scallop_trained_final.pth (
