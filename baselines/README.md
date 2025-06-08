@@ -1,8 +1,8 @@
-For running paramters advised by DeBlasio et al. [2020], please see https://github.com/Kingsford-Group/scallopadvising.
+To run paramters advised by DeBlasio et al. [2020], please see https://github.com/Kingsford-Group/scallopadvising.
 
-For running BO on each RNA-seq sample, please see the instructions in the folder CAWarm-BO. 
+To run BO on each RNA-seq sample, please see the instructions in the folder CAWarm-BO. 
 
-For running AutoMash, first run mash sketch for each representative sample listed in representative_sample_scallop or representative_sample_stringtie, for example:
+To run AutoMash, first run mash sketch for each representative sample listed in representative_sample_scallop or representative_sample_stringtie, for example:
 
 ```bash
 cat SRR3944332.fastq.gz | ./mash-Linux64-v2.3/mash sketch -r -m 2 -o SRR3944332 -
