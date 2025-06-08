@@ -17,9 +17,7 @@ To compute the mash distance between the query sample and each representative sa
 For running NAP, first install the package following the instructions in https://github.com/huawei-noah/HEBO/tree/master/NAP. They don't provide guidance on how to run it on new case. Based on the example they provide, we train and test NAP in our case via the following steps. 
 
 1. replace the source codes function_gym_nap.py and objectives.py with the new ones in the folder nap/. 
-2. dfd 
-
-We used CAMPAREE and BEERS2 to simulate raw FASTQ files. For installation instructions, please refer to their official repositories: https://github.com/itmat/CAMPAREE/tree/main and https://github.com/itmat/BEERS2/tree/main. 
-
-The files ENCFF000CXQ.camparee.config.yaml and ENCFF000CXQ.beers2.config.yaml are example configuration templates used in our simulations. Please ensure to update the directory paths accordingly before using them. 
+2. for each representative sample, fit its dats (X,Y) with Gaussian Process model. 
+3. train nap with the script in the folder nap/. 
+4. test with the script in the folder nap/. 
 
