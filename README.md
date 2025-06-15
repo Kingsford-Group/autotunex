@@ -58,4 +58,6 @@ Here the value of `--top` is the size of the advisor set. top>=5 is recommended.
 
    (1) representative_sample_scallop: accession numbers of 1263 representative samples for Scallop. 
 
-   (2) representative_sample_stringtie: accession numbers of 1235 representative samples for StringTie2. 
+   (2) representative_sample_stringtie: accession numbers of 1235 representative samples for StringTie2.
+
+   (3) predictions/ENCODE65(sra)_scallop(stringtie2)_AutoTuneX_Xbests_top30.csv: The best parameters predicted 
