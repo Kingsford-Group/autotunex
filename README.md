@@ -54,10 +54,8 @@ Here the value of `--top` is the size of the advisor set. top>=5 is recommended.
 
 3. Our script will output a folder `./SRR1023790_scallop_advisorset/` (or `./SRR1023790_stringtie_advisorset/`) and all the parameter candidates are stored there.
 
-### Other files
+### Other folders and files
 
-   (1) representative_sample_scallop: accession numbers of 1263 representative samples for Scallop. 
+   (1) dataset/: contains details of the training datasets and the test datasets. 
 
-   (2) representative_sample_stringtie: accession numbers of 1235 representative samples for StringTie2.
-
-   (3) predictions/ENCODE65(sra)_scallop(stringtie2)_AutoTuneX_Xbests_top30.csv: The best parameters predicted by AutoTuneX for samples in ENCODE65 or SRA-test datasets. 
+   (2) predictions/ENCODE65(sra)_scallop(stringtie2)_AutoTuneX_Xbests_top30.csv: The best parameters predicted by AutoTuneX for samples in ENCODE65 or SRA-test datasets. 
