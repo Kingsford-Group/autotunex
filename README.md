@@ -56,6 +56,6 @@ Here the value of `--top` is the size of the advisor set. top>=5 is recommended.
 
 ### Other folders and files
 
-   (1) dataset/: contains details of the training datasets and the test datasets. 
+   (1) datasets/: contains details of the training datasets and the test datasets. 
 
    (2) predictions/ENCODE65(sra)_scallop(stringtie2)_AutoTuneX_Xbests_top30.csv: The best parameters predicted by AutoTuneX for samples in ENCODE65 or SRA-test datasets. 
