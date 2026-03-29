@@ -1,6 +1,6 @@
 # AutoTuneX
 
-This repo contains the trained parameter advisor models for Scallop and StringTie2. For details on these models, please read our manuscript "Data-driven AI system for learning how to run transcript assemblers" (https://doi.org/10.1101/2024.01.25.577290). 
+This repo contains the trained parameter advisor models for Scallop and StringTie2. For details on these models, please read our manuscript "Data-driven AI system for learning how to run transcript assemblers" (https://doi.org/10.1101/2024.01.25.577290). You can also find it in Zenodo (https://doi.org/10.5281/zenodo.19322730).
 
 ## Installation 
 
