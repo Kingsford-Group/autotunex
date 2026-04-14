@@ -17,7 +17,7 @@ To compute the mash distance between the query sample and each representative sa
 To run NAP, first install the package by following the instructions at https://github.com/huawei-noah/HEBO/tree/master/NAP. As no instructions are provided for applying NAP to a new case, we adapt their example to train and test NAP on our dataset using the following steps.
 
 1. replace the source codes function_gym_nap.py and objectives.py with the new ones in the folder nap/. 
-2. for each representative sample, fit its dats (X,Y) with Gaussian Process model. 
+2. for each representative sample, fit its data (X,Y) with Gaussian Process model. 
 3. train nap with the script in the folder nap/. 
 4. test with the script in the folder nap/. 
 
